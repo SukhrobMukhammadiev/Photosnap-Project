@@ -83,7 +83,13 @@ margin: 0 auto;
   }
   
   .wrapper-content{
-  width: 387px;
+    width: 100%;
+    max-width: 387px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    // padding: 0 20px;
   
       span{
       color: #FFF;
@@ -93,7 +99,8 @@ margin: 0 auto;
       }
   
       h1{
-      width: 380px;
+        width: 100%;
+      max-width: 380px;
       color: #FFF;
       font-size: 40px;
       font-weight: 700;
@@ -1557,11 +1564,13 @@ margin: 0 auto;
 
         .wrapper-content{
           width: 100%;
+          max-width: 100%;
           background-color: #000;
-          align-items: center;
+          // align-items: center;
           padding-left: 30px;
           padding-top: 48px;
           padding-bottom: 48px;
+          // text-align: center;
         }
       }
 
