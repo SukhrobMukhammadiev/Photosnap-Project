@@ -1,0 +1,1643 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,500;1,9..40,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "DM Sans";
+}
+
+ul,
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+body{
+max-width: 1440px;
+width: 100%;
+margin: 0 auto;
+
+.header{
+     
+  .container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 16px 0px;
+      margin: 0 auto;
+
+      .header-content {
+        ul {
+          display: flex;
+          column-gap: 37px;
+          li {
+            a {
+              color: #000;
+              font-size: 12px;
+              font-weight: 700;
+              letter-spacing: 2px;
+            }         
+          }
+        }
+      }
+  
+      button {
+        width: 160px;
+        height: 40px;
+        background-color: black;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2px;
+  
+        a {
+          color: #fff;
+          transition: 1s;
+        }
+      }    
+      .hamburger {
+        display: none;
+      }
+    }
+  }
+  
+  .wrapper{
+  max-width: 1440px;
+  background-image: url(../img/desk-moon-background-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 152px;
+  padding-left: 112px;
+  padding-bottom: 122px;
+
+  img{
+    display: none;
+  }
+  
+  .wrapper-content{
+  width: 387px;
+  
+      span{
+      color: #FFF;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      }
+  
+      h1{
+      width: 380px;
+      color: #FFF;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 48px; 
+      letter-spacing: 4.167px;
+      text-transform: uppercase;
+      padding-top: 24px;
+      }
+  
+      .wrapper-info{
+          display: flex;
+          column-gap: 9px;
+          padding-top: 16px;
+  
+          .march{
+          color: #FFF;
+          font-size: 13px;
+          font-weight: 400;
+          opacity: 0.75;
+          }
+      
+          .author{
+          color: #FFF;
+          font-size: 13px;
+          font-weight: 400;
+          opacity: 0.75;
+          }
+      }
+      p{
+          color: #FFF;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 25px;
+          opacity: 0.6;
+          padding-top: 24px;  
+      }
+  
+      button{
+          color: #FFF;
+          text-align: right;
+          font-size: 12px;
+          font-weight: 700;
+          letter-spacing: 2px;
+          padding-top: 24px;
+          background-color: transparent;
+          display: flex;
+          align-items: center;
+          column-gap: 16px;
+      }
+  
+  }
+  
+  }
+  
+  .cards{
+      max-width: 1440px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  
+      .card-one {
+          max-width: 360px;
+          width: 100%;
+          height: 500px;
+          background-image: url(../img/mountains.png);
+          transition: 1s ease all;
+    
+          .card-content {
+            display: flex;
+            padding-top: 360px;
+            height: 100px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+    
+            .card-info {
+              max-width: 280px;
+              width: 100%;
+              height: 45px;
+    
+              h4 {
+                width: 280px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 25px;
+              }
+    
+              p {
+                width: 280px;
+                color: #fff;
+                font-size: 13px;
+                font-weight: 400;
+              }
+            }
+    
+            .card-bottom-info {
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+    
+              .card-line {
+                width: 280px;
+                height: 1px;
+                opacity: 0.25;
+                background: #fff;
+              }
+    
+              .card-info-two {
+                max-width: 280px;
+                width: 100%;
+                height: 16px;
+                display: flex;
+                justify-content: space-between;
+                a {
+                  color: #fff;
+                  font-size: 12px;
+                  font-weight: 700;
+                  letter-spacing: 2px;
+                }
+              }
+            }
+          }
+        }
+    
+        .card-one:hover {
+          transform: translateY(-20px);
+        }
+  
+        .card-two {
+          transition: 1s ease all;
+    
+          max-width: 360px;
+          width: 100%;
+          height: 500px;
+          background-image: url(../img/sunset.png);
+    
+          .card-content {
+            display: flex;
+            padding-top: 360px;
+            height: 100px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+    
+            .card-info {
+              max-width: 280px;
+              width: 100%;
+              height: 45px;
+    
+              h4 {
+                width: 280px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 25px;
+              }
+    
+              p {
+                width: 280px;
+                color: #fff;
+                font-size: 13px;
+                font-weight: 400;
+              }
+            }
+    
+            .card-bottom-info {
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+    
+              .card-line {
+                width: 280px;
+                height: 1px;
+                opacity: 0.25;
+                background: #fff;
+              }
+    
+              .card-info-two {
+                max-width: 280px;
+                width: 100%;
+                height: 16px;
+                display: flex;
+                justify-content: space-between;
+                a {
+                  color: #fff;
+                  font-size: 12px;
+                  font-weight: 700;
+                  letter-spacing: 2px;
+                }
+              }
+            }
+          }
+        }
+    
+        .card-two:hover {
+          transition-duration: 1s;
+          transform: translateY(-20px);
+        }
+    
+        .card-three {
+          transition: 1s ease all;
+    
+          max-width: 360px;
+          width: 100%;
+          height: 500px;
+          background-image: url(../img/voyage.png);
+    
+          .card-content {
+            display: flex;
+            padding-top: 360px;
+            height: 100px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+    
+            .card-info {
+              max-width: 280px;
+              width: 100%;
+              height: 45px;
+    
+              h4 {
+                width: 280px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 25px;
+              }
+    
+              p {
+                width: 280px;
+                color: #fff;
+                font-size: 13px;
+                font-weight: 400;
+              }
+            }
+    
+            .card-bottom-info {
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+    
+              .card-line {
+                width: 280px;
+                height: 1px;
+                opacity: 0.25;
+                background: #fff;
+              }
+    
+              .card-info-two {
+                max-width: 280px;
+                width: 100%;
+                height: 16px;
+                display: flex;
+                justify-content: space-between;
+                a {
+                  color: #fff;
+                  font-size: 12px;
+                  font-weight: 700;
+                  letter-spacing: 2px;
+                }
+              }
+            }
+          }
+        }
+    
+        .card-three:hover {
+          transition-duration: 1s;
+          transform: translateY(-20px);
+        }
+    
+        .card-four {
+          transition: 1s ease all;
+          max-width: 360px;
+          width: 100%;
+          height: 500px;
+          background-image: url(../img/architectural.png);
+    
+          .card-content {
+            display: flex;
+            padding-top: 360px;
+            height: 100px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+    
+            .card-info {
+              max-width: 280px;
+              width: 100%;
+              height: 45px;
+    
+              h4 {
+                width: 280px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 25px;
+              }
+    
+              p {
+                width: 280px;
+                color: #fff;
+                font-size: 13px;
+                font-weight: 400;
+              }
+            }
+    
+            .card-bottom-info {
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+    
+              .card-line {
+                width: 280px;
+                height: 1px;
+                opacity: 0.25;
+                background: #fff;
+              }
+    
+              .card-info-two {
+                max-width: 280px;
+                width: 100%;
+                height: 16px;
+                display: flex;
+                justify-content: space-between;
+                a {
+                  color: #fff;
+                  font-size: 12px;
+                  font-weight: 700;
+                  letter-spacing: 2px;
+                }
+              }
+            }
+          }
+        }
+    
+        .card-four:hover {
+          transition-duration: 1s;
+          transform: translateY(-20px);
+        }
+  
+        .card-five {
+          transition: 1s ease all;
+          max-width: 360px;
+          width: 100%;
+          height: 500px;
+          background-image: url(../img/stories-world-tour.png);
+          .card-content {
+            display: flex;
+            padding-top: 340px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            .card-info {
+              max-width: 280px;
+              width: 100%;
+              margin-bottom: 16px;
+  
+              span{
+                width: 280px;
+                color: #FFF;
+                font-size: 13px;
+                font-weight: 400;
+              }
+    
+              h4 {
+                width: 280px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 25px;
+              }
+    
+              p {
+                width: 280px;
+                color: #fff;
+                font-size: 13px;
+                font-weight: 400;
+              }
+            }
+    
+            .card-bottom-info {
+              display: flex;
+              flex-direction: column;
+              row-gap: 20px;
+    
+              .card-line {
+                width: 280px;
+                height: 1px;
+                opacity: 0.25;
+                background: #fff;
+              }
+    
+              .card-info-two {
+                max-width: 280px;
+                width: 100%;
+                height: 16px;
+                display: flex;
+                justify-content: space-between;
+                a {
+                  color: #fff;
+                  font-size: 12px;
+                  font-weight: 700;
+                  letter-spacing: 2px;
+                }
+              }
+            }
+          }
+        }
+    
+        .card-five:hover {
+          transition-duration: 1s;
+          transform: translateY(-20px);
+        }
+        .card-six {
+          transition: 1s ease all;
+          max-width: 360px;
+          width: 100%;
+          height: 500px;
+          background-image: url(../img/stories-unforeseen.png);
+    
+          .card-content {
+            display: flex;
+            padding-top: 360px;
+            height: 100px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+    
+            .card-info {
+              max-width: 280px;
+              width: 100%;
+              height: 45px;
+  
+              // span{
+              //   width: 280px;
+              //   color: #FFF;
+              //   font-size: 13px;
+              //   font-weight: 400;
+              // }
+    
+              h4 {
+                width: 280px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 25px;
+              }
+    
+              p {
+                width: 280px;
+                color: #fff;
+                font-size: 13px;
+                font-weight: 400;
+              }
+            }
+    
+            .card-bottom-info {
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+    
+              .card-line {
+                width: 280px;
+                height: 1px;
+                opacity: 0.25;
+                background: #fff;
+              }
+    
+              .card-info-two {
+                max-width: 280px;
+                width: 100%;
+                height: 16px;
+                display: flex;
+                justify-content: space-between;
+                a {
+                  color: #fff;
+                  font-size: 12px;
+                  font-weight: 700;
+                  letter-spacing: 2px;
+                }
+              }
+            }
+          }
+        }
+    
+        .card-six:hover {
+          transition-duration: 1s;
+          transform: translateY(-20px);
+        }
+        .card-seven{
+          transition: 1s ease all;
+          max-width: 360px;
+          width: 100%;
+          height: 500px;
+          background-image: url(../img/stories-king.png);
+    
+          .card-content {
+            display: flex;
+            padding-top: 360px;
+            height: 100px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+    
+            .card-info {
+              max-width: 280px;
+              width: 100%;
+              height: 45px;
+  
+              // span{
+              //   width: 280px;
+              //   color: #FFF;
+              //   font-size: 13px;
+              //   font-weight: 400;
+              // }
+    
+              h4 {
+                width: 280px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 25px;
+              }
+    
+              p {
+                width: 280px;
+                color: #fff;
+                font-size: 13px;
+                font-weight: 400;
+              }
+            }
+    
+            .card-bottom-info {
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+    
+              .card-line {
+                width: 280px;
+                height: 1px;
+                opacity: 0.25;
+                background: #fff;
+              }
+    
+              .card-info-two {
+                max-width: 280px;
+                width: 100%;
+                height: 16px;
+                display: flex;
+                justify-content: space-between;
+                a {
+                  color: #fff;
+                  font-size: 12px;
+                  font-weight: 700;
+                  letter-spacing: 2px;
+                }
+              }
+            }
+          }
+        }
+    
+        .card-seven:hover {
+          transition-duration: 1s;
+          transform: translateY(-20px);
+        }
+        .card-eight{
+          transition: 1s ease all;
+          max-width: 360px;
+          width: 100%;
+          height: 500px;
+          background-image: url(../img/stories-trip.png);
+    
+          .card-content {
+            display: flex;
+            padding-top: 360px;
+            height: 100px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+    
+            .card-info {
+              max-width: 280px;
+              width: 100%;
+              height: 45px;
+  
+              // span{
+              //   width: 280px;
+              //   color: #FFF;
+              //   font-size: 13px;
+              //   font-weight: 400;
+              // }
+    
+              h4 {
+                width: 280px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 25px;
+              }
+    
+              p {
+                width: 280px;
+                color: #fff;
+                font-size: 13px;
+                font-weight: 400;
+              }
+            }
+    
+            .card-bottom-info {
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+    
+              .card-line {
+                width: 280px;
+                height: 1px;
+                opacity: 0.25;
+                background: #fff;
+              }
+    
+              .card-info-two {
+                max-width: 280px;
+                width: 100%;
+                height: 16px;
+                display: flex;
+                justify-content: space-between;
+                a {
+                  color: #fff;
+                  font-size: 12px;
+                  font-weight: 700;
+                  letter-spacing: 2px;
+                }
+              }
+            }
+          }
+        }
+    
+        .card-eight:hover {
+          transition-duration: 1s;
+          transform: translateY(-20px);
+        }
+        .card-nine{
+          transition: 1s ease all;
+          max-width: 360px;
+          width: 100%;
+          height: 500px;
+          background-image: url(../img/stories-rage.png);
+    
+          .card-content {
+            display: flex;
+            padding-top: 360px;
+            height: 100px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+    
+            .card-info {
+              max-width: 280px;
+              width: 100%;
+              height: 45px;
+  
+              // span{
+              //   width: 280px;
+              //   color: #FFF;
+              //   font-size: 13px;
+              //   font-weight: 400;
+              // }
+    
+              h4 {
+                width: 280px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 25px;
+              }
+    
+              p {
+                width: 280px;
+                color: #fff;
+                font-size: 13px;
+                font-weight: 400;
+              }
+            }
+    
+            .card-bottom-info {
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+    
+              .card-line {
+                width: 280px;
+                height: 1px;
+                opacity: 0.25;
+                background: #fff;
+              }
+    
+              .card-info-two {
+                max-width: 280px;
+                width: 100%;
+                height: 16px;
+                display: flex;
+                justify-content: space-between;
+                a {
+                  color: #fff;
+                  font-size: 12px;
+                  font-weight: 700;
+                  letter-spacing: 2px;
+                }
+              }
+            }
+          }
+        }
+    
+        .card-nine:hover {
+          transition-duration: 1s;
+          transform: translateY(-20px);
+        }
+        .card-ten{
+          transition: 1s ease all;
+          max-width: 360px;
+          width: 100%;
+          height: 500px;
+          background-image: url(../img/stories-running.png);
+    
+          .card-content {
+            display: flex;
+            padding-top: 360px;
+            height: 100px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+    
+            .card-info {
+              max-width: 280px;
+              width: 100%;
+              height: 45px;
+  
+              // span{
+              //   width: 280px;
+              //   color: #FFF;
+              //   font-size: 13px;
+              //   font-weight: 400;
+              // }
+    
+              h4 {
+                width: 280px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 25px;
+              }
+    
+              p {
+                width: 280px;
+                color: #fff;
+                font-size: 13px;
+                font-weight: 400;
+              }
+            }
+    
+            .card-bottom-info {
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+    
+              .card-line {
+                width: 280px;
+                height: 1px;
+                opacity: 0.25;
+                background: #fff;
+              }
+    
+              .card-info-two {
+                max-width: 280px;
+                width: 100%;
+                height: 16px;
+                display: flex;
+                justify-content: space-between;
+                a {
+                  color: #fff;
+                  font-size: 12px;
+                  font-weight: 700;
+                  letter-spacing: 2px;
+                }
+              }
+            }
+          }
+        }
+    
+        .card-ten:hover {
+          transition-duration: 1s;
+          transform: translateY(-20px);
+        }
+        .card-eleven{
+          transition: 1s ease all;
+          max-width: 360px;
+          width: 100%;
+          height: 500px;
+          background-image: url(../img/stories-waves.png);
+    
+          .card-content {
+            display: flex;
+            padding-top: 360px;
+            height: 100px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+    
+            .card-info {
+              max-width: 280px;
+              width: 100%;
+              height: 45px;
+  
+              // span{
+              //   width: 280px;
+              //   color: #FFF;
+              //   font-size: 13px;
+              //   font-weight: 400;
+              // }
+    
+              h4 {
+                width: 280px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 25px;
+              }
+    
+              p {
+                width: 280px;
+                color: #fff;
+                font-size: 13px;
+                font-weight: 400;
+              }
+            }
+    
+            .card-bottom-info {
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+    
+              .card-line {
+                width: 280px;
+                height: 1px;
+                opacity: 0.25;
+                background: #fff;
+              }
+    
+              .card-info-two {
+                max-width: 280px;
+                width: 100%;
+                height: 16px;
+                display: flex;
+                justify-content: space-between;
+                a {
+                  color: #fff;
+                  font-size: 12px;
+                  font-weight: 700;
+                  letter-spacing: 2px;
+                }
+              }
+            }
+          }
+        }
+    
+        .card-eleven:hover {
+          transition-duration: 1s;
+          transform: translateY(-20px);
+        }
+        .card-twelve{
+          transition: 1s ease all;
+          max-width: 360px;
+          width: 100%;
+          height: 500px;
+          background-image: url(../img/stories-calm.png);
+    
+          .card-content {
+            display: flex;
+            padding-top: 360px;
+            height: 100px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+    
+            .card-info {
+              max-width: 280px;
+              width: 100%;
+              height: 45px;
+  
+              // span{
+              //   width: 280px;
+              //   color: #FFF;
+              //   font-size: 13px;
+              //   font-weight: 400;
+              // }
+    
+              h4 {
+                width: 280px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 25px;
+              }
+    
+              p {
+                width: 280px;
+                color: #fff;
+                font-size: 13px;
+                font-weight: 400;
+              }
+            }
+    
+            .card-bottom-info {
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+    
+              .card-line {
+                width: 280px;
+                height: 1px;
+                opacity: 0.25;
+                background: #fff;
+              }
+    
+              .card-info-two {
+                max-width: 280px;
+                width: 100%;
+                height: 16px;
+                display: flex;
+                justify-content: space-between;
+                a {
+                  color: #fff;
+                  font-size: 12px;
+                  font-weight: 700;
+                  letter-spacing: 2px;
+                }
+              }
+            }
+          }
+        }
+    
+        .card-twelve:hover {
+          transition-duration: 1s;
+          transform: translateY(-20px);
+        }
+        .card-thirteen{
+          transition: 1s ease all;
+          max-width: 360px;
+          width: 100%;
+          height: 500px;
+          background-image: url(../img/stories-milky.png);
+    
+          .card-content {
+            display: flex;
+            padding-top: 360px;
+            height: 100px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+    
+            .card-info {
+              max-width: 280px;
+              width: 100%;
+              height: 45px;
+  
+              // span{
+              //   width: 280px;
+              //   color: #FFF;
+              //   font-size: 13px;
+              //   font-weight: 400;
+              // }
+    
+              h4 {
+                width: 280px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 25px;
+              }
+    
+              p {
+                width: 280px;
+                color: #fff;
+                font-size: 13px;
+                font-weight: 400;
+              }
+            }
+    
+            .card-bottom-info {
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+    
+              .card-line {
+                width: 280px;
+                height: 1px;
+                opacity: 0.25;
+                background: #fff;
+              }
+    
+              .card-info-two {
+                max-width: 280px;
+                width: 100%;
+                height: 16px;
+                display: flex;
+                justify-content: space-between;
+                a {
+                  color: #fff;
+                  font-size: 12px;
+                  font-weight: 700;
+                  letter-spacing: 2px;
+                }
+              }
+            }
+          }
+        }
+    
+        .card-thirteen:hover {
+          transition-duration: 1s;
+          transform: translateY(-20px);
+        }
+        
+        .card-fourteen{
+          transition: 1s ease all;
+          max-width: 360px;
+          width: 100%;
+          height: 500px;
+          background-image: url(../img/stories-forest.png);
+    
+          .card-content {
+            display: flex;
+            padding-top: 360px;
+            height: 100px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+    
+            .card-info {
+              max-width: 280px;
+              width: 100%;
+              height: 45px;
+  
+              // span{
+              //   width: 280px;
+              //   color: #FFF;
+              //   font-size: 13px;
+              //   font-weight: 400;
+              // }
+    
+              h4 {
+                width: 280px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 25px;
+              }
+    
+              p {
+                width: 280px;
+                color: #fff;
+                font-size: 13px;
+                font-weight: 400;
+              }
+            }
+    
+            .card-bottom-info {
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+    
+              .card-line {
+                width: 280px;
+                height: 1px;
+                opacity: 0.25;
+                background: #fff;
+              }
+    
+              .card-info-two {
+                max-width: 280px;
+                width: 100%;
+                height: 16px;
+                display: flex;
+                justify-content: space-between;
+                a {
+                  color: #fff;
+                  font-size: 12px;
+                  font-weight: 700;
+                  letter-spacing: 2px;
+                }
+              }
+            }
+          }
+        }
+    
+        .card-fourteen:hover {
+          transition-duration: 1s;
+          transform: translateY(-20px);
+        }
+
+        .card-fifteen{
+          transition: 1s ease all;
+          max-width: 360px;
+          width: 100%;
+          height: 500px;
+          background-image: url(../img/stories-beauty.png);
+    
+          .card-content {
+            display: flex;
+            padding-top: 360px;
+            height: 100px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+    
+            .card-info {
+              max-width: 280px;
+              width: 100%;
+              height: 45px;
+  
+              // span{
+              //   width: 280px;
+              //   color: #FFF;
+              //   font-size: 13px;
+              //   font-weight: 400;
+              // }
+    
+              h4 {
+                width: 280px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 25px;
+              }
+    
+              p {
+                width: 280px;
+                color: #fff;
+                font-size: 13px;
+                font-weight: 400;
+              }
+            }
+    
+            .card-bottom-info {
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+    
+              .card-line {
+                width: 280px;
+                height: 1px;
+                opacity: 0.25;
+                background: #fff;
+              }
+    
+              .card-info-two {
+                max-width: 280px;
+                width: 100%;
+                height: 16px;
+                display: flex;
+                justify-content: space-between;
+                a {
+                  color: #fff;
+                  font-size: 12px;
+                  font-weight: 700;
+                  letter-spacing: 2px;
+                }
+              }
+            }
+          }
+        }
+    
+        .card-fifteen:hover {
+          transition-duration: 1s;
+          transform: translateY(-20px);
+        }
+
+        .card-sixteen{
+          transition: 1s ease all;
+          max-width: 360px;
+          width: 100%;
+          height: 500px;
+          background-image: url(../img/stories-land.png);
+    
+          .card-content {
+            display: flex;
+            padding-top: 360px;
+            height: 100px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+    
+            .card-info {
+              max-width: 280px;
+              width: 100%;
+              height: 45px;
+  
+              // span{
+              //   width: 280px;
+              //   color: #FFF;
+              //   font-size: 13px;
+              //   font-weight: 400;
+              // }
+    
+              h4 {
+                width: 280px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 25px;
+              }
+    
+              p {
+                width: 280px;
+                color: #fff;
+                font-size: 13px;
+                font-weight: 400;
+              }
+            }
+    
+            .card-bottom-info {
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+    
+              .card-line {
+                width: 280px;
+                height: 1px;
+                opacity: 0.25;
+                background: #fff;
+              }
+    
+              .card-info-two {
+                max-width: 280px;
+                width: 100%;
+                height: 16px;
+                display: flex;
+                justify-content: space-between;
+                a {
+                  color: #fff;
+                  font-size: 12px;
+                  font-weight: 700;
+                  letter-spacing: 2px;
+                }
+              }
+            }
+          }
+        }
+    
+        .card-sixteen:hover {
+          transition-duration: 1s;
+          transform: translateY(-20px);
+        }
+  }
+
+  footer {
+    background-color: black;
+
+    .footer-content {
+      max-width: 1110px;
+      width: 100%;
+      margin: 0 auto;
+      padding-top: 64px;
+      display: flex;
+      justify-content: space-between;
+
+      .footer-content-one {
+        max-width: 407px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .logo {
+
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+
+          .social-network {
+            column-gap: 13px;
+            max-width: 154px;
+            width: 100%;
+            padding-top: 100px;
+            display: flex;
+          }
+        }
+
+        .footer-info {
+          display: flex;
+          flex-direction: column;
+          ul {
+            width: 120px;
+
+            li {
+              margin-bottom: 19px;
+              a {
+                max-width: 255px;
+                color: #fff;
+                font-size: 12px;
+                font-weight: 700;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+              }             
+            }
+          }
+        }
+        .social-network-tablet{
+          display: none;
+        }
+      }
+
+      .footer-content-two {
+        max-width: 255px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .footer-link {
+          // width: 270px;
+          display: flex;
+          align-items: flex-end;
+          flex-direction: column;
+          padding-right: 15px;
+
+          .footer-invite {
+            width: 100%;
+            max-width: 168px;
+            // height: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            a {
+              color: #fff;
+              text-align: right;
+              font-size: 12px;
+              font-weight: 700;
+              letter-spacing: 2px;
+
+            }
+            // svg {
+            //   margin-left: 16px;
+            // }
+          }
+
+          p {
+            width: 255px;
+            color: #fff;
+            text-align: right;
+            font-size: 15px;
+            font-weight: 400;
+            opacity: 0.5025;
+            padding-top: 86px;
+            padding-bottom: 64px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
+@media only screen and (max-width: 800px) {
+  body{
+
+    .wrapper{
+      background-image: url(../img/tablet-moon.png);
+      padding-left: 40px;
+    }
+
+    .header{
+     
+      .container {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          // padding: 16px 0px;
+          padding-left: 40px;
+
+          .header-content {
+            ul {
+              display: flex;
+              column-gap: 37px;
+              li {
+                display: block;
+                a {
+                  color: #000;
+                  font-size: 12px;
+                  font-weight: 700;
+                  letter-spacing: 2px;
+                }         
+              }
+            }
+          }
+      
+          button {
+            width: 160px;
+            height: 40px;
+            background-color: black;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            display: none;
+
+      
+            a {
+              color: #fff;
+              transition: 1s;
+            }
+          }    
+          .hamburger {
+            display: block;
+          }
+        }
+      }
+    footer{
+      .footer-content{
+        .footer-content-one{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .logo{
+            .social-network{
+              display: none;
+            }
+          }
+          .footer-info{
+            ul{
+              display: flex;
+              flex-direction: row;
+              column-gap: 26px;    
+            }
+          }
+          .social-network-tablet{
+            display: flex;
+            column-gap: 14px;
+          }
+        }
+      }
+    }
+  }
+  }
+
+  @media only screen and (max-width: 580px){
+    body{
+      .wrapper{
+        width: 100%;
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+
+        img{
+          display: block;
+          width: 100%;
+        }
+
+        .wrapper-content{
+          width: 100%;
+          background-color: #000;
+          align-items: center;
+          padding-left: 30px;
+          padding-top: 48px;
+          padding-bottom: 48px;
+        }
+      }
+
+      .header{
+     
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            // padding: 16px 0px;
+            padding-left: 40px;
+  
+            .header-content {
+              ul {
+                display: flex;
+                column-gap: 37px;
+                li {
+                  display: none;       
+                }
+              }
+            }
+        
+            button {
+              width: 160px;
+              height: 40px;
+              background-color: black;
+              color: #fff;
+              font-size: 12px;
+              font-weight: 700;
+              letter-spacing: 2px;
+              display: none;
+  
+        
+              a {
+                color: #fff;
+                transition: 1s;
+              }
+            }    
+            .hamburger {
+              display: block;
+            }
+          }
+        }
+      footer{
+        .footer-content{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          row-gap: 119px;
+          .footer-content-one{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 49px;
+            .logo{
+              row-gap: 32px;
+              .social-network{
+                display: flex;
+                padding: 0;
+              }
+            }
+            .footer-info{
+              ul{
+                display: flex;
+                flex-direction: column;
+                column-gap: 26px;    
+                align-items: center;
+              }
+            }
+            .social-network-tablet{
+              display: none;
+              column-gap: 14px;
+            }
+          }
+        }
+      }
+
+    }
+  }
