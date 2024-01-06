@@ -593,6 +593,26 @@ button {
   padding-top: 100px;
   display: flex;
 }
+.container footer .footer-content .footer-content-one .logo .social-network .facebook svg:hover path {
+  fill: #6028F1;
+  transition-duration: 1s;
+}
+.container footer .footer-content .footer-content-one .logo .social-network .youtube:hover svg path {
+  fill: #FF5A5A;
+  transition-duration: 1s;
+}
+.container footer .footer-content .footer-content-one .logo .social-network .twitter:hover svg path {
+  fill: #27718A;
+  transition-duration: 1s;
+}
+.container footer .footer-content .footer-content-one .logo .social-network .pixel:hover svg path {
+  fill: #DE3838;
+  transition-duration: 1s;
+}
+.container footer .footer-content .footer-content-one .logo .social-network .instagram:hover svg path {
+  fill: #5A77FF;
+  transition-duration: 1s;
+}
 .container footer .footer-content .footer-content-one .footer-info {
   display: flex;
   flex-direction: column;
@@ -610,6 +630,10 @@ button {
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+.container footer .footer-content .footer-content-one .footer-info ul li a:hover {
+  opacity: 0.3;
+  transition-duration: 0.5s;
 }
 .container footer .footer-content .footer-content-one .social-network-tablet {
   display: none;
@@ -639,6 +663,9 @@ button {
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 2px;
+}
+.container footer .footer-content .footer-content-two .footer-link .footer-invite a:hover {
+  border-bottom: 1px solid #fff;
 }
 .container footer .footer-content .footer-content-two .footer-link p {
   width: 255px;

@@ -652,7 +652,6 @@ button {
         display: flex;
         justify-content: space-between;
         .logo {
-
           display: flex;
           align-items: center;
           flex-direction: column;
@@ -663,6 +662,34 @@ button {
             width: 100%;
             padding-top: 100px;
             display: flex;
+
+            .facebook{
+              svg:hover{
+                path{
+                  fill: #6028F1;
+                  transition-duration: 1s;
+                }
+               
+              }
+            }
+
+            .youtube:hover svg path {
+              fill:  #FF5A5A;
+              ;
+              transition-duration: 1s;
+            }
+            .twitter:hover svg path {
+              fill:  #27718A;
+              transition-duration: 1s;
+            }
+            .pixel:hover svg path{
+              fill:  #DE3838;
+              transition-duration: 1s;
+            }
+            .instagram:hover svg path{
+              fill: #5A77FF;              ;
+              transition-duration: 1s;
+            }
           }
         }
 
@@ -681,7 +708,11 @@ button {
                 font-weight: 700;
                 letter-spacing: 2px;
                 text-transform: uppercase;
-              }             
+              }   
+              a:hover {
+                opacity: 0.3;
+                transition-duration: 0.5s;
+              }          
             }
           }
         }
@@ -715,8 +746,10 @@ button {
               font-weight: 700;
               letter-spacing: 2px;
 
-            }
-            
+              &:hover {
+                border-bottom: 1px solid #fff;
+              }
+            }            
           }
 
           p {
@@ -836,7 +869,6 @@ button {
 
     footer{
       .footer-content{
-        // padding-left: 40px;
         .footer-content-one{
           display: flex;
           flex-direction: column;
@@ -861,32 +893,7 @@ button {
       }
     }
     
-    // footer{
-    //   .footer-content{
-    //     .footer-content-one{
-    //       display: flex;
-    //       flex-direction: column;
-    //       align-items: center;
-    //       .logo{
-    //         .social-network{
-    //           display: none;
-    //         }
-    //       }
-    //       .footer-info{
-    //         ul{
-    //           display: flex;
-    //           flex-direction: row;
-    //           column-gap: 26px;    
-    //         }
-    //       }
-    //       .social-network-tablet{
-    //         display: flex;
-    //         column-gap: 14px;
-    //       }
-    //     }
-    //   }
-    // }
-  }
+    }
 
 }
 
