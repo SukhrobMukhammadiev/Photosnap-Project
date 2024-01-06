@@ -697,7 +697,6 @@ button {
         flex-direction: column;
 
         .footer-link {
-          // width: 270px;
           display: flex;
           align-items: flex-end;
           flex-direction: column;
@@ -706,7 +705,6 @@ button {
           .footer-invite {
             width: 100%;
             max-width: 168px;
-            // height: 16px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -718,9 +716,7 @@ button {
               letter-spacing: 2px;
 
             }
-            // svg {
-            //   margin-left: 16px;
-            // }
+            
           }
 
           p {
