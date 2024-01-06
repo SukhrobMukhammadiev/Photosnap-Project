@@ -159,7 +159,13 @@ body .cards .card-one .card-content {
 body .cards .card-one .card-content .card-info {
   max-width: 280px;
   width: 100%;
-  height: 45px;
+  margin-bottom: 16px;
+}
+body .cards .card-one .card-content .card-info span {
+  width: 280px;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 400;
 }
 body .cards .card-one .card-content .card-info h4 {
   width: 280px;
@@ -219,7 +225,13 @@ body .cards .card-two .card-content {
 body .cards .card-two .card-content .card-info {
   max-width: 280px;
   width: 100%;
-  height: 45px;
+  margin-bottom: 16px;
+}
+body .cards .card-two .card-content .card-info span {
+  width: 280px;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 400;
 }
 body .cards .card-two .card-content .card-info h4 {
   width: 280px;
@@ -280,7 +292,13 @@ body .cards .card-three .card-content {
 body .cards .card-three .card-content .card-info {
   max-width: 280px;
   width: 100%;
-  height: 45px;
+  margin-bottom: 16px;
+}
+body .cards .card-three .card-content .card-info span {
+  width: 280px;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 400;
 }
 body .cards .card-three .card-content .card-info h4 {
   width: 280px;
@@ -341,7 +359,13 @@ body .cards .card-four .card-content {
 body .cards .card-four .card-content .card-info {
   max-width: 280px;
   width: 100%;
-  height: 45px;
+  margin-bottom: 16px;
+}
+body .cards .card-four .card-content .card-info span {
+  width: 280px;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 400;
 }
 body .cards .card-four .card-content .card-info h4 {
   width: 280px;
@@ -468,7 +492,13 @@ body .cards .card-six .card-content {
 body .cards .card-six .card-content .card-info {
   max-width: 280px;
   width: 100%;
-  height: 45px;
+  margin-bottom: 16px;
+}
+body .cards .card-six .card-content .card-info span {
+  width: 280px;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 400;
 }
 body .cards .card-six .card-content .card-info h4 {
   width: 280px;
@@ -529,7 +559,13 @@ body .cards .card-seven .card-content {
 body .cards .card-seven .card-content .card-info {
   max-width: 280px;
   width: 100%;
-  height: 45px;
+  margin-bottom: 16px;
+}
+body .cards .card-seven .card-content .card-info span {
+  width: 280px;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 400;
 }
 body .cards .card-seven .card-content .card-info h4 {
   width: 280px;
@@ -590,7 +626,13 @@ body .cards .card-eight .card-content {
 body .cards .card-eight .card-content .card-info {
   max-width: 280px;
   width: 100%;
-  height: 45px;
+  margin-bottom: 16px;
+}
+body .cards .card-eight .card-content .card-info span {
+  width: 280px;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 400;
 }
 body .cards .card-eight .card-content .card-info h4 {
   width: 280px;
@@ -651,7 +693,13 @@ body .cards .card-nine .card-content {
 body .cards .card-nine .card-content .card-info {
   max-width: 280px;
   width: 100%;
-  height: 45px;
+  margin-bottom: 16px;
+}
+body .cards .card-nine .card-content .card-info span {
+  width: 280px;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 400;
 }
 body .cards .card-nine .card-content .card-info h4 {
   width: 280px;
@@ -712,7 +760,13 @@ body .cards .card-ten .card-content {
 body .cards .card-ten .card-content .card-info {
   max-width: 280px;
   width: 100%;
-  height: 45px;
+  margin-bottom: 16px;
+}
+body .cards .card-ten .card-content .card-info span {
+  width: 280px;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 400;
 }
 body .cards .card-ten .card-content .card-info h4 {
   width: 280px;
@@ -773,7 +827,13 @@ body .cards .card-eleven .card-content {
 body .cards .card-eleven .card-content .card-info {
   max-width: 280px;
   width: 100%;
-  height: 45px;
+  margin-bottom: 16px;
+}
+body .cards .card-eleven .card-content .card-info span {
+  width: 280px;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 400;
 }
 body .cards .card-eleven .card-content .card-info h4 {
   width: 280px;
@@ -834,7 +894,13 @@ body .cards .card-twelve .card-content {
 body .cards .card-twelve .card-content .card-info {
   max-width: 280px;
   width: 100%;
-  height: 45px;
+  margin-bottom: 16px;
+}
+body .cards .card-twelve .card-content .card-info span {
+  width: 280px;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 400;
 }
 body .cards .card-twelve .card-content .card-info h4 {
   width: 280px;
@@ -895,7 +961,13 @@ body .cards .card-thirteen .card-content {
 body .cards .card-thirteen .card-content .card-info {
   max-width: 280px;
   width: 100%;
-  height: 45px;
+  margin-bottom: 16px;
+}
+body .cards .card-thirteen .card-content .card-info span {
+  width: 280px;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 400;
 }
 body .cards .card-thirteen .card-content .card-info h4 {
   width: 280px;
@@ -956,7 +1028,13 @@ body .cards .card-fourteen .card-content {
 body .cards .card-fourteen .card-content .card-info {
   max-width: 280px;
   width: 100%;
-  height: 45px;
+  margin-bottom: 16px;
+}
+body .cards .card-fourteen .card-content .card-info span {
+  width: 280px;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 400;
 }
 body .cards .card-fourteen .card-content .card-info h4 {
   width: 280px;
@@ -1017,7 +1095,13 @@ body .cards .card-fifteen .card-content {
 body .cards .card-fifteen .card-content .card-info {
   max-width: 280px;
   width: 100%;
-  height: 45px;
+  margin-bottom: 16px;
+}
+body .cards .card-fifteen .card-content .card-info span {
+  width: 280px;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 400;
 }
 body .cards .card-fifteen .card-content .card-info h4 {
   width: 280px;
@@ -1078,7 +1162,13 @@ body .cards .card-sixteen .card-content {
 body .cards .card-sixteen .card-content .card-info {
   max-width: 280px;
   width: 100%;
-  height: 45px;
+  margin-bottom: 16px;
+}
+body .cards .card-sixteen .card-content .card-info span {
+  width: 280px;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 400;
 }
 body .cards .card-sixteen .card-content .card-info h4 {
   width: 280px;
