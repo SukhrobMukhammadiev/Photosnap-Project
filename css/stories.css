@@ -132,6 +132,9 @@ body .wrapper .wrapper-content button {
   -moz-column-gap: 16px;
        column-gap: 16px;
 }
+body .wrapper .wrapper-content button:hover {
+  text-decoration: underline;
+}
 body .cards {
   max-width: 1440px;
   width: 100%;
@@ -1336,6 +1339,9 @@ body footer .footer-content .footer-content-two .footer-link p {
   body .header .container button a {
     color: #fff;
     transition: 1s;
+  }
+  body .header .container button a:hover {
+    border-bottom: 2px solid white;
   }
   body .header .container .hamburger {
     display: block;

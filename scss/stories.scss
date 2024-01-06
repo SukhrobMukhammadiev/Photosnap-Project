@@ -132,16 +132,20 @@ margin: 0 auto;
       }
   
       button{
-          color: #FFF;
-          text-align: right;
-          font-size: 12px;
-          font-weight: 700;
-          letter-spacing: 2px;
-          padding-top: 24px;
-          background-color: transparent;
-          display: flex;
-          align-items: center;
-          column-gap: 16px;
+        color: #FFF;
+        text-align: right;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        padding-top: 24px;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        column-gap: 16px;
+      }
+
+      button:hover{
+        text-decoration: underline;
       }
   
   }
@@ -1527,6 +1531,12 @@ margin: 0 auto;
             a {
               color: #fff;
               transition: 1s;
+            }
+            
+            
+              a:hover{
+                border-bottom: 2px solid white;
+              
             }
           }    
           .hamburger {
