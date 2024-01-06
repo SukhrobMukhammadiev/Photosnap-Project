@@ -8,8 +8,7 @@ body {
   font-family: "DM Sans";
 }
 
-ul,
-a {
+ul, a {
   list-style-type: none;
   text-decoration: none;
 }

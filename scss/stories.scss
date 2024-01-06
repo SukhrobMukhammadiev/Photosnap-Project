@@ -8,24 +8,19 @@
 body {
   font-family: "DM Sans";
 }
-
 ul, a {
   list-style-type: none;
   text-decoration: none;
 }
-
 button {
   cursor: pointer;
   border: none;
 }
-
 body{
 max-width: 1440px;
 width: 100%;
 margin: 0 auto;
-
-.header{
-     
+.header{     
   .container {
       display: flex;
       justify-content: space-around;
@@ -151,8 +146,7 @@ margin: 0 auto;
   
   }
   
-  }
-  
+  }  
   .cards{
       max-width: 1440px;
       width: 100%;
@@ -1383,7 +1377,6 @@ margin: 0 auto;
           transform: translateY(-20px);
         }
   }
-
   footer {
     background-color: black;
 
@@ -1486,9 +1479,7 @@ margin: 0 auto;
       }
     }
   }
-
 }
-
 
 @media only screen and (max-width: 800px){
   body{
