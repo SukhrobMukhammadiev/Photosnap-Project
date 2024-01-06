@@ -1491,7 +1491,7 @@ margin: 0 auto;
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px){
   body{
 
     .wrapper{
@@ -1505,7 +1505,6 @@ margin: 0 auto;
           display: flex;
           justify-content: space-around;
           align-items: center;
-          // padding: 16px 0px;
           padding-left: 40px;
 
           .header-content {
@@ -1605,7 +1604,6 @@ margin: 0 auto;
             display: flex;
             justify-content: space-around;
             align-items: center;
-            // padding: 16px 0px;
             padding-left: 40px;
   
             .header-content {
@@ -1626,8 +1624,7 @@ margin: 0 auto;
               font-size: 12px;
               font-weight: 700;
               letter-spacing: 2px;
-              display: none;
-  
+              display: none; 
         
               a {
                 color: #fff;
