@@ -175,19 +175,29 @@ body .main .section-two .icon-content p {
 }
 body .main .section-three {
   max-width: 1440px;
-  height: 200px;
   width: 100%;
   margin: 0 auto;
-  background-color: red;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .main .section-three .beta-info {
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 68px 68px;
 }
 body .main .section-three .beta-info h3 {
+  max-width: 400px;
   color: #FFF;
   font-size: 40px;
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 4.167px;
   text-transform: uppercase;
+  background-color: blue;
 }
 body .main .section-three .beta-info button {
   color: #FFF;
@@ -198,12 +208,14 @@ body .main .section-three .beta-info button {
   text-decoration: underline;
   background-color: transparent;
   padding-right: 16px;
+  background-color: yellowgreen;
 }
 body .main .section-three .beta-photo {
   max-width: 1110px;
+  height: 200px;
   width: 100%;
   background-image: url(../img/desk-beta-background.png);
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 body footer {
