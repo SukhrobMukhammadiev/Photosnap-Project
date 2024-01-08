@@ -92,7 +92,7 @@ margin: 0 auto;
       }
   
       h1{
-        width: 100%;
+      width: 100%;
       max-width: 380px;
       color: #FFF;
       font-size: 40px;
@@ -1443,7 +1443,6 @@ margin: 0 auto;
         flex-direction: column;
 
         .footer-link {
-          // width: 270px;
           display: flex;
           align-items: flex-end;
           flex-direction: column;
@@ -1452,7 +1451,6 @@ margin: 0 auto;
           .footer-invite {
             width: 100%;
             max-width: 168px;
-            // height: 16px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -1464,9 +1462,7 @@ margin: 0 auto;
               letter-spacing: 2px;
 
             }
-            // svg {
-            //   margin-left: 16px;
-            // }
+            
           }
 
           p {
