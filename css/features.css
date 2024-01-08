@@ -5,7 +5,7 @@
 }
 
 body, input, button, textarea {
-  font-family: "DM Sans";
+  font-family: "DM Sans", sans-serif;
 }
 
 ul, a {
@@ -23,25 +23,25 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-body .header .container {
+body header .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 16px 0px;
   margin: 0 auto;
 }
-body .header .container .header-content ul {
+body header .container .header-content ul {
   display: flex;
   -moz-column-gap: 37px;
        column-gap: 37px;
 }
-body .header .container .header-content ul li a {
+body header .container .header-content ul li a {
   color: #000;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 2px;
 }
-body .header .container button {
+body header .container button {
   width: 160px;
   height: 40px;
   background-color: black;
@@ -50,22 +50,25 @@ body .header .container button {
   font-weight: 700;
   letter-spacing: 2px;
 }
-body .header .container button a {
+body header .container button a {
   color: #fff;
   transition: 1s;
 }
-body .header .container .hamburger {
+body header .container .hamburger {
   display: none;
 }
-body .main .section-one {
+body main .section-one {
   max-width: 1440px;
   width: 100%;
   display: flex;
 }
-body .main .section-one .tablet-camera, body .main .section-one .mobile-camera {
+body main .section-one .tablet-camera {
   display: none;
 }
-body .main .section-one .wrapper-info {
+body main .section-one .mobile-camera {
+  display: none;
+}
+body main .section-one .wrapper-info {
   padding: 173px 15px;
   width: 100%;
   max-width: 610px;
@@ -74,10 +77,11 @@ body .main .section-one .wrapper-info {
   align-items: center;
   background-color: black;
 }
-body .main .section-one .wrapper-info .wrapper-content {
+body main .section-one .wrapper-info .wrapper-content {
   width: 387px;
 }
-body .main .section-one .wrapper-info .wrapper-content h1 {
+body main .section-one .wrapper-info .wrapper-content h1 {
+  position: relative;
   max-width: 387px;
   width: 100%;
   color: #fff;
@@ -87,7 +91,7 @@ body .main .section-one .wrapper-info .wrapper-content h1 {
   letter-spacing: 4.167px;
   text-transform: uppercase;
 }
-body .main .section-one .wrapper-info .wrapper-content p {
+body main .section-one .wrapper-info .wrapper-content p {
   max-width: 387px;
   width: 100%;
   color: #fff;
@@ -97,7 +101,7 @@ body .main .section-one .wrapper-info .wrapper-content p {
   opacity: 0.6;
   padding-top: 21px;
 }
-body .main .section-one .wrapper-info .wrapper-content .wrapper-last {
+body main .section-one .wrapper-info .wrapper-content .wrapper-last {
   max-width: 170px;
   width: 100%;
   height: 16px;
@@ -106,7 +110,7 @@ body .main .section-one .wrapper-info .wrapper-content .wrapper-last {
   align-items: center;
   justify-content: space-between;
 }
-body .main .section-one .wrapper-info .wrapper-content .wrapper-last button {
+body main .section-one .wrapper-info .wrapper-content .wrapper-last button {
   color: #fff;
   font-size: 12px;
   font-weight: 700;
@@ -114,17 +118,17 @@ body .main .section-one .wrapper-info .wrapper-content .wrapper-last button {
   background-color: black;
   border: 2px solid black;
 }
-body .main .section-one .wrapper-info .wrapper-content .wrapper-last button:hover {
+body main .section-one .wrapper-info .wrapper-content .wrapper-last button:hover {
   border-bottom: 2px solid white;
 }
-body .main .section-one .wrapper-photo {
-  max-width: 830px;
+body main .section-one .wrapper-photo {
   width: 100%;
+  max-width: 830px;
   background-image: url(../img/desk-camera.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
-body .main .section-two {
+body main .section-two {
   max-width: 1110px;
   width: 100%;
   margin: 0 auto;
@@ -134,19 +138,19 @@ body .main .section-two {
   padding: 120px 0;
   row-gap: 50px;
 }
-body .main .section-two .icon-content {
+body main .section-two .icon-content {
   max-width: 350px;
   padding-top: 40px;
   margin: 0 auto;
 }
-body .main .section-two .icon-content img {
+body main .section-two .icon-content img {
   width: 72px;
   height: 72px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
 }
-body .main .section-two .icon-content h3 {
+body main .section-two .icon-content h3 {
   max-width: 350px;
   width: 100%;
   margin: 0 auto;
@@ -159,7 +163,7 @@ body .main .section-two .icon-content h3 {
   line-height: 25px;
   padding-top: 48px;
 }
-body .main .section-two .icon-content p {
+body main .section-two .icon-content p {
   max-width: 350px;
   width: 100%;
   margin: 0 auto;
@@ -173,7 +177,7 @@ body .main .section-two .icon-content p {
   opacity: 0.6;
   padding-top: 16px;
 }
-body .main .section-three {
+body main .section-three {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
@@ -184,7 +188,7 @@ body .main .section-three {
   background-size: cover;
   background-repeat: no-repeat;
 }
-body .main .section-three .beta-info {
+body main .section-three .beta-info {
   max-width: 1100px;
   width: 100%;
   display: flex;
@@ -194,7 +198,7 @@ body .main .section-three .beta-info {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-body .main .section-three .beta-info h3 {
+body main .section-three .beta-info h3 {
   max-width: 400px;
   color: #FFF;
   font-size: 40px;
@@ -203,7 +207,7 @@ body .main .section-three .beta-info h3 {
   letter-spacing: 4.167px;
   text-transform: uppercase;
 }
-body .main .section-three .beta-info .beta-content button {
+body main .section-three .beta-info .beta-content button {
   color: #FFF;
   text-align: right;
   font-size: 12px;
@@ -302,32 +306,26 @@ body footer .footer-content .footer-content-two .footer-link p {
 }
 
 @media only screen and (max-width: 800px) {
-  body .main {
-    background-image: url(../img/tablet-camera.png);
-    background-repeat: no-repeat;
-    padding-left: 40px;
-  }
-  body .header .container {
+  body header .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-left: 40px;
   }
-  body .header .container .header-content ul {
+  body header .container .header-content ul {
     display: flex;
     -moz-column-gap: 37px;
          column-gap: 37px;
   }
-  body .header .container .header-content ul li {
+  body header .container .header-content ul li {
     display: block;
   }
-  body .header .container .header-content ul li a {
+  body header .container .header-content ul li a {
     color: #000;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 2px;
   }
-  body .header .container button {
+  body header .container button {
     width: 160px;
     height: 40px;
     background-color: black;
@@ -337,15 +335,36 @@ body footer .footer-content .footer-content-two .footer-link p {
     letter-spacing: 2px;
     display: block;
   }
-  body .header .container button a {
+  body header .container button a {
     color: #fff;
     transition: 1s;
   }
-  body .header .container button a:hover {
+  body header .container button a:hover {
     border-bottom: 2px solid white;
   }
-  body .header .container .hamburger {
+  body header .container .hamburger {
     display: none;
+  }
+  body main .section-one {
+    justify-content: center;
+  }
+  body main .section-one .tablet-camera {
+    display: block;
+  }
+  body main .section-one .mobile-camera {
+    display: none;
+  }
+  body main .section-one .wrapper-photo {
+    background-image: none;
+  }
+  body main .section-one .wrapper-info .wrapper-content h1::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 144px;
+    background: linear-gradient(27deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+    top: 0;
+    left: 0;
   }
   body footer .footer-content .footer-content-one {
     display: flex;
@@ -377,8 +396,14 @@ body footer .footer-content .footer-content-two .footer-link p {
     padding-left: 0px;
     padding-bottom: 0px;
   }
-  body .main .section-one img {
+  body .main .section-one .tablet-camera {
+    display: none;
+  }
+  body .main .section-one .mobile-camera {
     display: block;
+    line-height: 0;
+  }
+  body .main .section-one .mobile-camera img {
     width: 100%;
   }
   body .main .section-one .wrapper-content {
@@ -393,7 +418,6 @@ body footer .footer-content .footer-content-two .footer-link p {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-left: 40px;
   }
   body .header .container .header-content ul {
     display: flex;
@@ -418,7 +442,7 @@ body footer .footer-content .footer-content-two .footer-link p {
     transition: 1s;
   }
   body .header .container .hamburger {
-    display: none;
+    display: block;
   }
   body footer .footer-content {
     display: flex;
