@@ -84,7 +84,8 @@ header{
               background-color: black;
         
               .wrapper-content {
-                width: 387px;
+                width: 100%;
+                max-width: 387px;
                 h1 {
                   position: relative;
                   max-width: 387px;
@@ -194,9 +195,6 @@ header{
             }
         }
         .section-three{
-        max-width: 1440px;
-        width: 100%;
-        margin: 0 auto;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -207,12 +205,11 @@ header{
         .beta-info{
             max-width: 1100px;
             width: 100%;
+            margin: 0 auto;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-left: 165px;
-            padding-top: 60px;
-            padding-bottom: 60px;
+            padding: 60px 39px;
             h3{
                 max-width: 400px;
                 color: #FFF;
@@ -257,8 +254,7 @@ header{
             width: 100%;
             display: flex;
             justify-content: space-between;
-            .logo {
-    
+            .logo {    
               display: flex;
               align-items: center;
               flex-direction: column;
@@ -399,30 +395,45 @@ header{
           justify-content: center;
           .tablet-camera{
             display: block;
+            img{
+              display: block;
+            }
           }
           .mobile-camera{
             display: none;
           }
           .wrapper-photo{
-            background-image: none;
+            display: none;
           }
 
           .wrapper-info{
-            .wrapper-content{
-              h1{
-                &::after{
-                  content: "";
-                  position: absolute;
-                  width: 6px;
-                  height: 144px;
-                  background: linear-gradient(27deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
-                  top: 0;
-                  left: 0;
-                }
-              }
+            padding: 0;
+            position: relative;
+            &::after{
+              content: "";
+              position: absolute;
+              width: 6px;
+              height: 144px;
+              background: linear-gradient(27deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+              top: center;
+              left: 0;
             }
           }
         }
+        .section-three{
+          padding: 0;
+            position: relative;
+            &::after{
+              content: "";
+              position: absolute;
+              width: 6px;
+              height: 265px;
+              background: linear-gradient(27deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+              top: 0;
+              left: 0;
+            }
+        }
+
       }
   
       footer{
@@ -482,7 +493,60 @@ header{
                   padding-left: 30px;
                   padding-top: 48px;
                   padding-bottom: 48px;
+
+                  &::after{
+                    content: "";
+                    position: absolute;
+                    width: 128px;
+                    height: 6px;
+                    background: linear-gradient(27deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+                    top: 0;
+                    left: 29px;
+                  }
                 }
+            }
+            .section-three{
+      
+              .beta-info{
+                  flex-direction: column;
+                  padding: 60px 39px;
+                  align-items: flex-start;
+                  justify-content: flex-start;
+                  row-gap: 24px;
+                  &::after{
+                    content: "";
+                    position: absolute;
+                    width: 128px;
+                    height: 6px;
+                    background: linear-gradient(27deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+                    top: 0;
+                    left: 29px;
+                  }
+                  h3{
+                      max-width: 400px;
+                      color: #FFF;
+                      font-size: 40px;
+                      font-weight: 700;
+                      line-height: 48px;
+                      letter-spacing: 4.167px;
+                      text-transform: uppercase;
+                  }
+      
+                  .beta-content{
+                    
+                    button{
+                      color: #FFF;
+                      text-align: right;
+                      font-size: 12px;
+                      font-weight: 700;
+                      letter-spacing: 2px;
+                      text-decoration: underline;
+                      background-color: transparent;
+                      padding-right: 16px;
+                  }
+                  }
+                  
+              }
             }          
         }
   
@@ -546,7 +610,7 @@ header{
                 ul{
                   display: flex;
                   flex-direction: column;
-                  column-gap: 26px;    
+                  column-gap: 26px;
                   align-items: center;
                 }
               }
@@ -556,8 +620,7 @@ header{
               }
             }
           }
-        }
-  
+        }  
       }
     }
 

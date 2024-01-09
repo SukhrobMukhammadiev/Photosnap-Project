@@ -78,7 +78,8 @@ body main .section-one .wrapper-info {
   background-color: black;
 }
 body main .section-one .wrapper-info .wrapper-content {
-  width: 387px;
+  width: 100%;
+  max-width: 387px;
 }
 body main .section-one .wrapper-info .wrapper-content h1 {
   position: relative;
@@ -178,9 +179,6 @@ body main .section-two .icon-content p {
   padding-top: 16px;
 }
 body main .section-three {
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -191,12 +189,11 @@ body main .section-three {
 body main .section-three .beta-info {
   max-width: 1100px;
   width: 100%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 165px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 39px;
 }
 body main .section-three .beta-info h3 {
   max-width: 400px;
@@ -351,17 +348,37 @@ body footer .footer-content .footer-content-two .footer-link p {
   body main .section-one .tablet-camera {
     display: block;
   }
+  body main .section-one .tablet-camera img {
+    display: block;
+  }
   body main .section-one .mobile-camera {
     display: none;
   }
   body main .section-one .wrapper-photo {
-    background-image: none;
+    display: none;
   }
-  body main .section-one .wrapper-info .wrapper-content h1::after {
+  body main .section-one .wrapper-info {
+    padding: 0;
+    position: relative;
+  }
+  body main .section-one .wrapper-info::after {
     content: "";
     position: absolute;
     width: 6px;
     height: 144px;
+    background: linear-gradient(27deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+    top: center;
+    left: 0;
+  }
+  body main .section-three {
+    padding: 0;
+    position: relative;
+  }
+  body main .section-three::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 265px;
     background: linear-gradient(27deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
     top: 0;
     left: 0;
@@ -413,6 +430,50 @@ body footer .footer-content .footer-content-two .footer-link p {
     padding-left: 30px;
     padding-top: 48px;
     padding-bottom: 48px;
+  }
+  body .main .section-one .wrapper-content::after {
+    content: "";
+    position: absolute;
+    width: 128px;
+    height: 6px;
+    background: linear-gradient(27deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+    top: 0;
+    left: 29px;
+  }
+  body .main .section-three .beta-info {
+    flex-direction: column;
+    padding: 60px 39px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 24px;
+  }
+  body .main .section-three .beta-info::after {
+    content: "";
+    position: absolute;
+    width: 128px;
+    height: 6px;
+    background: linear-gradient(27deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+    top: 0;
+    left: 29px;
+  }
+  body .main .section-three .beta-info h3 {
+    max-width: 400px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 4.167px;
+    text-transform: uppercase;
+  }
+  body .main .section-three .beta-info .beta-content button {
+    color: #FFF;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    background-color: transparent;
+    padding-right: 16px;
   }
   body .header .container {
     display: flex;
