@@ -82,6 +82,18 @@ header{
               justify-content: center;
               align-items: center;
               background-color: black;
+              position: relative;
+
+                &::after{
+                  content: "";
+                  position: absolute;
+                  width: 6px;
+                  height: 144px;
+                  background: linear-gradient(27deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+                  top: center;
+                  left: 0;
+                }
+              
         
               .wrapper-content {
                 width: 100%;
@@ -201,6 +213,17 @@ header{
         background-image: url(../img/desk-beta-background.png);
         background-size: cover;
         background-repeat: no-repeat;
+        position: relative;
+
+        &::after{
+          content: "";
+          position: absolute;
+          width: 6px;
+          height: 265px;
+          background: linear-gradient(27deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+          top: 0;
+          left: 0;
+        }
 
         .beta-info{
             max-width: 1100px;
@@ -241,11 +264,13 @@ header{
     footer {
         background-color: black;
     
+        max-width: 1440px;
+        padding: 64px 165px;
         .footer-content {
-          max-width: 1110px;
           width: 100%;
           margin: 0 auto;
-          padding-top: 64px;
+          // padding: 64px 40px;
+          // padding-top: 64px;
           display: flex;
           justify-content: space-between;
     
@@ -424,6 +449,7 @@ header{
           padding: 0;
             position: relative;
             &::after{
+              display: block;
               content: "";
               position: absolute;
               width: 6px;
@@ -437,11 +463,17 @@ header{
       }
   
       footer{
+        padding: 64px 39px
+        ;
+
         .footer-content{
+
           .footer-content-one{
+            // padding: 0;
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
+
             .logo{
               .social-network{
                 display: none;
@@ -471,10 +503,11 @@ header{
                 width: 100%;
                 background-image: none;
                 display: flex;
-                flex-direction: column;
+                flex-direction: column-reverse;
                 padding-top: 20px;
                 padding-left: 0px;
-                padding-bottom: 0px;
+                padding-bottom: 0px;     
+                
                 .tablet-camera{
                   display: none;
                 }
@@ -502,10 +535,27 @@ header{
                     background: linear-gradient(27deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
                     top: 0;
                     left: 29px;
-                  }
+                  }                                   
                 }
+
+                .wrapper-info{
+                   
+                  &::after{
+                    content: "";
+                    position: absolute;
+                    width: 6px;
+                    height: 144px;
+                    background: linear-gradient(27deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+                    top: center;
+                    left: 0;
+                    display: none;
+                  }
+                } 
             }
             .section-three{
+              &::after{
+                display: none;
+              }
       
               .beta-info{
                   flex-direction: column;
