@@ -394,15 +394,12 @@ header{
               font-size: 12px;
               font-weight: 700;
               letter-spacing: 2px;
-              display: block;
-  
+              display: block; 
         
               a {
                 color: #fff;
                 transition: 1s;
-              }
-              
-              
+              }             
                 a:hover{
                   border-bottom: 2px solid white;
                 
@@ -457,13 +454,11 @@ header{
               left: 0;
             }
         }
-
       }
   
       footer{
         padding: 64px 39px
         ;
-
         .footer-content{
           .footer-content-one{
             display: flex;
@@ -513,8 +508,7 @@ header{
                   img{
                     width: 100%;
                   }
-                }
-        
+                }        
                 .wrapper-content{
                   width: 100%;
                   max-width: 100%;
@@ -535,7 +529,7 @@ header{
                 }
 
                 .wrapper-info{
-                   
+
                   &::after{
                     content: "";
                     position: absolute;
@@ -590,14 +584,12 @@ header{
                       background-color: transparent;
                       padding-right: 16px;
                   }
-                  }
-                  
+                  }                  
               }
             }          
         }
   
-        .header{
-       
+        .header{       
           .container{
               display: flex;
               justify-content: space-around;
@@ -630,7 +622,7 @@ header{
               }
               .hamburger {
                 display: block;
-              }              
+              }            
             }
           }
           
